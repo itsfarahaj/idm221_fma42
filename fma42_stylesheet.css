@@ -8,7 +8,7 @@
 .header{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/banner.png); 
+    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/banner.jpeg); 
     background-position: center;
     background-size: cover;
     position: relative;
@@ -18,7 +18,7 @@
 .connect{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/connect.png); 
+    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/connect.jpeg); 
     background-position: center;
     background-size: cover;
     position: relative;
@@ -28,7 +28,7 @@
 .journey{
     min-height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/journey.png); 
+    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/journey.jpeg); 
     background-position: center;
     background-size: cover;
     position: relative;
