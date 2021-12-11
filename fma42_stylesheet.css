@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/banner.png); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.connect{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/connect.png); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    !important
+}
+
+.journey{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(43, 55, 105, 0.7), rgba(43,55,105,0.7)),url(images/journey.png); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    !important
+}
+
+nav{
+    display: flex;
+    padding: 3%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+
+/*
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+@media (max-width: 300px){
+    .nav-links{
+        text-align: justify;
+    }
+
+}
+
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f5dc52;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+*/
+
+
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 46px;
+}
+
+.text-box p{
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid #f5dc52;
+    background: #f5dc52;
+    transition: 0.5s;
+}
+
+@media ( max-width: 300px) { 
+    .text-box h1{
+        font-size: 22px;
+    }
+    .nav-links ul li {
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #f5dc52;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }
+}
+
+.nav-links ul{
+    padding: 30px;
+}
+
+/* End of header -----------------------------------------------*/
+
+/*----- who -----*/
+.who{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(59, 75, 141) ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/*----- how -----*/
+.how{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/*----- what -----*/
+.what{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: rgb(59, 75, 141) ;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.what-col{
+    flex-basis: 31%;
+    background: #7d72dd2c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+
+.what-col:hover {
+    box-shadow: 0 0 10px 10px rgba(212, 216, 151, 0.63);
+}
+@media (max-width: 300px){
+    .row{
+        flex-direction: column;
+    }
+}
+
+
+
+/* ---------------------------------- NEW PAGE: journey page sub titles --------------------- */
+
+/*----- books -----*/
+.books{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/*----- causes -----*/
+.causes{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/*----- how to -----*/
+.howspot{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/*----- prev places -----*/
+.prevspot{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.prevspot-col{
+    flex-basis: 31%;
+    background: #e2e47048;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+/* ----------------------------------END journey page sub titles --------------------- */
+
+
+/*----- final remark -----*/
+.final{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+h4{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(59, 75, 141);
+}
+
+
+
+.prevspot-col:hover {
+    box-shadow: 0 0 10px 10px rgba(148, 176, 223, 0.198);
+}
+@media (max-width: 300px){
+    .row{
+        flex-direction: column;
+    }
+}
+*/
+
+/* ---------------- books-------------*/
+
+.books{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.books-col{
+    flex-basis: 32%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.books-col img{
+    width: 85%;
+    height: 80%;
+    padding: 20px;
+    border-radius: 60px;
+    display: block;
+}
+
+/*
+.layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition:0.5s ;
+}
+
+.layer:hover{
+    background: rgba(43, 55, 105, 0.7);
+}
+*/ 
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity:0;
+    transition: 0.5s;
+
+}
+
+/* --------------- causes -------*/
+.causes{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px;
+}
+
+.causes-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    padding:25px;
+    cursor: pointer;
+    display: flex;
+   
+
+}
+
+.causes-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+/* --------------- how to spot -------*/
+ 
+.howspot{
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+.contactus{
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col{
+    flex-basis: 40%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.icon{
+    margin-left: 0px;
+}
+
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    
+}
+
+.contact-col img{
+    width: 40%;
+    height: 40%;
+    padding: 70px;
+    border-radius: 30px;
+    
+}
+
+.contact-col div .icon{
+    font-size:28px;
+    color:rgb(59, 75, 141)
+    margin: 10px;
+    margin-right: 30px;
+    
+}
+
+.contact-col div p{
+    padding: 0; 
+
+}
+
+.contact-col div h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col div h2{
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: rgb(108, 118, 177);
+    font-weight: 600;
+}
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid rgb(72, 95, 185);
+    box-sizing: border-box;
+}
+
+
+
+
+h5{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(59, 75, 141);
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(59, 75, 141);
+}
+
+
+
+
+
+.footer{
+    padding:50px 35px 30px 35px;
+
+}
